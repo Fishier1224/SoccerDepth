@@ -1,0 +1,13 @@
+name: zoedepth310
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - torch
+      - torchvision
+      - timm==0.6.12
+      - opencv-python
+      - pillow
